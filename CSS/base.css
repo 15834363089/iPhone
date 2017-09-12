@@ -1,0 +1,15 @@
+*{
+    margin:0;/*清楚body身上8像素的边距*/
+    padding:0;/*input*/
+    list-style: none;/*清除列表默认样式*/
+    font-family:"微软雅黑";/*设置字体*/
+    box-sizing: border-box;/*清除下划线*/
+    text-decoration: none;/*a标签清除下划线*/
+    font-weight: normal;/*字体粗细*/
+    border: 0;
+}
+img{
+    display: block;/*因为图片肯定有父元素包着，所以转换不会影响布局，那里都可以用*/
+    width:100%;
+    height:100%;
+}
